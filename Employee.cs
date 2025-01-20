@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace C__Adv_Demo_01
 {
-    internal struct Employee
+    internal class Employee : IEquatable<Employee>
 
     {
         public int ID { get; set; }
@@ -27,8 +27,7 @@ namespace C__Adv_Demo_01
         //  }
 
        // public override bool Equals(object? obj) // obj = new Employee()
-        {
-
+       
             // 1. is operator
             ///  if (obj is Employee )
           /// {
@@ -50,13 +49,12 @@ namespace C__Adv_Demo_01
             ///  if (other == null) return false;
             ///  return this.ID == other.ID && this.Name == other.Name && this.Salary == other.Salary;
 
-        }
-
-        public override int GetHashCode()
+        
+public bool Equals(Employee other)
         {
-            return base.GetHashCode();
+            if (other == null) return false;
+            return this.ID == other.ID && this.Name == other.Name && this.Salary == other.Salary;
         }
-
 
     }
 

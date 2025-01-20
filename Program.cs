@@ -38,14 +38,14 @@
             #region LiearSearch Example
 
 
-            Employee[] employees =
-                {
-                new Employee() { ID = 10 , Name = "Ahmed" , Salary = 8_000},
-                 new Employee() { ID = 20 , Name = "Omar" , Salary = 7_000},
-                  new Employee() { ID = 30 , Name = "Bassem" , Salary = 4_000},
-                   new Employee() { ID = 40 , Name = "hamda" , Salary = 5_000},
-                   };
-            int index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 });
+         ///  Employee[] employees =
+         ///      {
+         ///      new Employee() { ID = 10 , Name = "Ahmed" , Salary = 8_000},
+         ///       new Employee() { ID = 20 , Name = "Omar" , Salary = 7_000},
+         ///        new Employee() { ID = 30 , Name = "Bassem" , Salary = 4_000},
+         ///         new Employee() { ID = 40 , Name = "hamda" , Salary = 5_000},
+         ///         };
+         ///  int index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 });
 
             ///   int retsult = Helper.LinarSearch(Numbers, 8);
             ///
