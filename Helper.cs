@@ -11,6 +11,29 @@ namespace C__Adv_Demo_01
         // T must be Class or struct implementing rhw built-in InterFace "IComparable"
     {
 
+      // Primary Constraint [ 0 ,1 ]
+      // 1. Genral Primary Constraint
+     //               class => T Must be Class
+     //               struct => T Must be Struct
+     //               notnull => T must be not nullable ( C# 8.0)
+     //               default => 
+     //               unmanged =>
+     //               Enum => T must be Enum (C# 7.3)
+     //
+     //  2. Special Primary Constarint (User_Defined Class (Exception Sealed ))
+     //        Point => T Must be point or another Class inherits from point
+
+       ///  Secondary Constraint (inherFace Constraint ) [ 0 : M ]
+       ///  <IComparable<T>
+       /// T must be Class\ Struct Implementing ICompareable
+       
+       
+       /// Parameterless Constructor Constraint [1 : 0 ]
+       /// T must be DataType Having Accesable [non-private ] ParameterLess Constructor
+       /// till C# 12.0 only one Constructor Constraint
+       /// Cant use new () [ Constructor Constraint ] with struct [ Special primary Constraint]
+       
+
         public static void BubbleSort(int[] Arr)
         {
             if (Arr is null || Arr.Length == 0)

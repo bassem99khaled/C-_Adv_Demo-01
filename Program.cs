@@ -73,24 +73,25 @@
 
             #region BubbleSort
 
-        //    Employee[] employees =
-           //  {
-           // new Employee() { ID = 10, Name = "Ahmed", Salary = 8_000 },
-           // new Employee() { ID = 20, Name = "Omar", Salary = 7_000 },
-           // new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 },
-           // new Employee() { ID = 40, Name = "hamda", Salary = 5_000 },
-           //  };
-        //
-        //   Helper<Employee>.BubbleSort(employees);
+            //    Employee[] employees =
+            //  {
+            // new Employee() { ID = 10, Name = "Ahmed", Salary = 8_000 },
+            // new Employee() { ID = 20, Name = "Omar", Salary = 7_000 },
+            // new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 },
+            // new Employee() { ID = 40, Name = "hamda", Salary = 5_000 },
+            //  };
+            //
+            //   Helper<Employee>.BubbleSort(employees);
 
-        // Helper<Employee>.BubbleSort(employees, new EmployeeComparerByName () )
+            // Helper<Employee>.BubbleSort(employees, new EmployeeComparerByName () )
 
-        //   foreach (var employee in employees)
-        //   
-        //       Console.WriteLine(employee);
-        //   
+            //   foreach (var employee in employees)
+            //   
+            //       Console.WriteLine(employee);
+            //   
 
             #endregion
+
 
         }
     }
