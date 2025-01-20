@@ -26,15 +26,17 @@ namespace C__Adv_Demo_01
         //      return (Left.ID != Right.ID && Left.Name != Right.Name && Left.Salary != Right.Salary);
         //  }
 
-        public override bool Equals(object? obj) // obj = new Employee()
+       // public override bool Equals(object? obj) // obj = new Employee()
         {
 
             // 1. is operator
             ///  if (obj is Employee )
-            ///  {
-            ///      other = (Employee?)obj;
-            ///  }
-            ///  
+          /// {
+          ///     return this.ID == other.ID && this.Name == other.Name && this.Salary == other.Salary;
+          /// }
+          /// return false;
+
+
 
             // 2. as operator
            /// Employee? other = obj as Employee; // no exceptions will be thrown
