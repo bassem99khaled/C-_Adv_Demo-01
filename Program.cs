@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             #region SWAP Example
-            
+
             ///  int A = 3, B = 5; // Boxing
             ///  Console.WriteLine($"A = {A}");
             ///  Console.WriteLine($"B = {B}");
@@ -31,8 +31,31 @@
             ///
             /// Console.WriteLine($"P01 = {p01}");
             /// Console.WriteLine($"P02 = {p02}");  
-           
-            
+
+
+            #endregion
+
+            #region LiearSearch Example
+
+            ///   int[] Numbers = [10, 5, 43, 6, 7, 8, 32, 4];
+            ///
+            ///   int retsult = Helper.LinarSearch(Numbers, 8);
+            ///
+            ///   Console.WriteLine($" Index ={retsult}");
+            ///   
+       //    Employee E01 = new Employee() { ID = 10, Name = "Ahmed", Salary = 5_000 };
+       //    Employee E02 = new Employee() { ID = 20, Name = "Omnia", Salary = 3_000 };
+       //
+       //
+       //    if(E01.Equals(E02))
+       //   // if (E01 == E02)
+       //
+       //        Console.WriteLine("EQUALS");
+       //    else
+       //        Console.WriteLine($"!EQUALS");
+       //         
+
+
             #endregion
 
         }
