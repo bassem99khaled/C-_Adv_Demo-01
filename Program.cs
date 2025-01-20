@@ -38,21 +38,21 @@
             #region LiearSearch Example
 
 
-         ///  Employee[] employees =
-         ///      {
-         ///      new Employee() { ID = 10 , Name = "Ahmed" , Salary = 8_000},
-         ///       new Employee() { ID = 20 , Name = "Omar" , Salary = 7_000},
-         ///        new Employee() { ID = 30 , Name = "Bassem" , Salary = 4_000},
-         ///         new Employee() { ID = 40 , Name = "hamda" , Salary = 5_000},
-         ///         };
-         ///  int index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 , new EmployeeEqualityComparer() });
+            ///  Employee[] employees =
+            ///      {
+            ///      new Employee() { ID = 10 , Name = "Ahmed" , Salary = 8_000},
+            ///       new Employee() { ID = 20 , Name = "Omar" , Salary = 7_000},
+            ///        new Employee() { ID = 30 , Name = "Bassem" , Salary = 4_000},
+            ///         new Employee() { ID = 40 , Name = "hamda" , Salary = 5_000},
+            ///         };
+            ///  int index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 , new EmployeeEqualityComparer() });
 
 
-        //    int index = Helper<Employee>.LinarSearch(employees , new Employee() {  ID = 40 , Name = "Omnia"} , delegate(Employee X ,Employee Y) { return X == Y; });
-        //
-        //    index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 40, Name = "Omnia" }, delegate ( X,  Y) => X.Name == Y.Name);
-          
-            
+            //    int index = Helper<Employee>.LinarSearch(employees , new Employee() {  ID = 40 , Name = "Omnia"} , delegate(Employee X ,Employee Y) { return X == Y; });
+            //
+            //    index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 40, Name = "Omnia" }, delegate ( X,  Y) => X.Name == Y.Name);
+
+
             ///
             ///   Console.WriteLine($" Index ={retsult}");
             ///   
@@ -68,6 +68,25 @@
             //        Console.WriteLine($"!EQUALS");
             //         
 
+
+            #endregion
+
+            #region BubbleSort
+
+        //    Employee[] employees =
+           //  {
+           // new Employee() { ID = 10, Name = "Ahmed", Salary = 8_000 },
+           // new Employee() { ID = 20, Name = "Omar", Salary = 7_000 },
+           // new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 },
+           // new Employee() { ID = 40, Name = "hamda", Salary = 5_000 },
+           //  };
+        //
+        //   Helper<Employee>.BubbleSort(employees);
+        //
+        //   foreach (var employee in employees)
+        //   
+        //       Console.WriteLine(employee);
+        //   
 
             #endregion
 

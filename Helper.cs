@@ -6,8 +6,27 @@ using System.Threading.Tasks;
 
 namespace C__Adv_Demo_01
 {
-    internal static class Helper<T> 
+    internal static class Helper<T> where T : IComparable<T>
+
+        // T must be Class or struct implementing rhw built-in InterFace "IComparable"
     {
+
+        public static void BubbleSort(int[] Arr)
+        {
+            if (Arr is null || Arr.Length == 0)
+                return;
+
+            for (int i = 0; i < Arr.Length /*6*/; i++) // i =0
+            {
+                for (int j = 0; j < Arr.Length -1 - i /*5*/; j++)  // j = 0
+                {
+                    if (Arr[j].CompareTo( Arr[j + 1] ) == 1)
+                        Helper<int>.SWAP(ref Arr[j], ref Arr[j + 1]);
+                }
+            }
+        }
+
+
 
         public static int LinarSearch(T[] Arr, int Value)
         {
