@@ -82,7 +82,9 @@
            //  };
         //
         //   Helper<Employee>.BubbleSort(employees);
-        //
+
+        // Helper<Employee>.BubbleSort(employees, new EmployeeComparerByName () )
+
         //   foreach (var employee in employees)
         //   
         //       Console.WriteLine(employee);

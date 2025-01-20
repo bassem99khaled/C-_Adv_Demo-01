@@ -25,6 +25,20 @@ namespace C__Adv_Demo_01
                 }
             }
         }
+        public static void BubbleSort(int[] Arr, IComparable<T> comparer)
+        {
+            if (Arr is null || Arr.Length == 0)
+                return;
+
+            for (int i = 0; i < Arr.Length ; i++) 
+            {
+                for (int j = 0; j < Arr.Length - 1 - i ; j++)
+                {
+                    if (comparer.Compare(Arr[i], Arr[j + 1]) == 1)
+                        SWAP(ref Arr[i], ref Arr[j + 1]);
+                }
+            }
+        }
 
 
 
