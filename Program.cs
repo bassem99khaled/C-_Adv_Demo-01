@@ -45,7 +45,7 @@
          ///        new Employee() { ID = 30 , Name = "Bassem" , Salary = 4_000},
          ///         new Employee() { ID = 40 , Name = "hamda" , Salary = 5_000},
          ///         };
-         ///  int index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 });
+         ///  int index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 , new EmployeeEqualityComparer() });
 
             ///   int retsult = Helper.LinarSearch(Numbers, 8);
             ///

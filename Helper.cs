@@ -11,7 +11,7 @@ namespace C__Adv_Demo_01
 
         public static int LinarSearch(T[] Arr, int Value)
         {
-            if (Arr?.Length > 0)
+            if (Arr?.Length > 0 && Value is not null)
             {
                 for (int i = 0; i < Arr.Length; i++)
                 {
@@ -22,6 +22,20 @@ namespace C__Adv_Demo_01
             return -1;
         }
 
+        public static int LinarSearch(T[] Arr, T value , IEqualityComparer<T> equalityComparer)
+        {
+            if (Arr?.Length > 0 && value is not null)
+            {
+                for (int i = 0; i < Arr.Length; i++)
+                {
+                    //if (Value.Equals(Arr[i]))
+                    if (equalityComparer.Equals(value, Arr[i]))    
+                    
+                    return i;
+                }
+            }
+            return -1;
+        }
         public static void SWAP(ref T X, ref T  Y) /*where T : struct*/
         {
             Console.WriteLine("===== SWAP ======");
