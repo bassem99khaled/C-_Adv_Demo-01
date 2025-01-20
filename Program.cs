@@ -47,21 +47,26 @@
          ///         };
          ///  int index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 30, Name = "Bassem", Salary = 4_000 , new EmployeeEqualityComparer() });
 
-            ///   int retsult = Helper.LinarSearch(Numbers, 8);
+
+        //    int index = Helper<Employee>.LinarSearch(employees , new Employee() {  ID = 40 , Name = "Omnia"} , delegate(Employee X ,Employee Y) { return X == Y; });
+        //
+        //    index = Helper<Employee>.LinarSearch(employees, new Employee() { ID = 40, Name = "Omnia" }, delegate ( X,  Y) => X.Name == Y.Name);
+          
+            
             ///
             ///   Console.WriteLine($" Index ={retsult}");
             ///   
-       //    Employee E01 = new Employee() { ID = 10, Name = "Ahmed", Salary = 5_000 };
-       //    Employee E02 = new Employee() { ID = 20, Name = "Omnia", Salary = 3_000 };
-       //
-       //
-       //    if(E01.Equals(E02))
-       //   // if (E01 == E02)
-       //
-       //        Console.WriteLine("EQUALS");
-       //    else
-       //        Console.WriteLine($"!EQUALS");
-       //         
+            //    Employee E01 = new Employee() { ID = 10, Name = "Ahmed", Salary = 5_000 };
+            //    Employee E02 = new Employee() { ID = 20, Name = "Omnia", Salary = 3_000 };
+            //
+            //
+            //    if(E01.Equals(E02))
+            //   // if (E01 == E02)
+            //
+            //        Console.WriteLine("EQUALS");
+            //    else
+            //        Console.WriteLine($"!EQUALS");
+            //         
 
 
             #endregion
